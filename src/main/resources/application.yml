@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: booking-service
+  rabbitmq:
+    host:localhost
+    port:5672
+    username:guest
+    password:guest
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+
+server:
+  port: 8999
+  servlet:
+    context-path: "/bookings"
+  error:
+    include-message: always
