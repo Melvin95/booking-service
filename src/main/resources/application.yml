@@ -16,7 +16,5 @@ springdoc:
 
 server:
   port: 8999
-  servlet:
-    context-path: "/bookings"
   error:
     include-message: always
